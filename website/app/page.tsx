@@ -237,7 +237,6 @@ export default function Home() {
                                                   অর্ডার করুন →
                                                     </a>
                                                     )}
-              )}
             </div>
           ))}
         </div>
