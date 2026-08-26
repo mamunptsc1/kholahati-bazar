@@ -220,22 +220,9 @@ export default function Home() {
               </div>
               <h3 className="mt-5 text-xl font-black text-green-950">{title}</h3>
               <p className="mt-2 text-sm leading-6 text-slate-600">{text}</p>
-
-              {title === "মুদি পণ্য" ? (
-                <a
-                  href="/mudi"
-                  className="mt-5 inline-block text-sm font-black text-orange-600"
-                >
-                  মুদি পণ্য দেখুন →
-                </a>
-              ) : (
-                <a
-                  href="#order"
-                  className="mt-5 inline-block text-sm font-black text-orange-600"
-                >
-                  অর্ডার করুন →
-                </a>
-              )}
+              <a href="#order" className="mt-5 inline-block text-sm font-black text-orange-600">
+                অর্ডার করুন →
+              </a>
             </div>
           ))}
         </div>
