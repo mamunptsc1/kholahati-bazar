@@ -22,6 +22,9 @@ export const metadata: Metadata = {
 
   description:
     "খোলাহাটি বাজার থেকে বাজার-সদাই, মুদি পণ্য ও প্রয়োজনীয় পণ্য সহজে অর্ডার করুন। খোলাহাটি ও আশেপাশের এলাকায় Home Delivery সেবা।",
+  verification: {
+  google: "QSoG2j9auvMlTm4lScMG9s-GaueBNow8mcbYtNOmj_8",
+},
 
   alternates: {
     canonical: "/",
